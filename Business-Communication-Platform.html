@@ -1,14 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business-Communication-Platform</title>
-</head>
-<body>
-    
-</body>
-</html>
 
-<!-- testing commit -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row h-100">
+            <div id="navigation-col" class="col-4 col-md-3">
+                <div id="navigation-items">
+                    <h3>Channels</h3>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">General</p>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">Marketing</p>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">Operations</p>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">Random</p>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">Standups</p>
+                    <br>
+                    <h3>Direct Messages</h3>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">Connor Steele</p>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">Taylor LaMar</p>
+                    <p class="pl-3 pt-2 pb-2 pr-2 m-0 navigation-item">Martyn Lmao</p>
+                </div>
+            </div>
+
+            <div class="col-8 col-md-9 chat-container">
+                <h3>Business Communication Platform</h3>
+
+                <div id="messages-container">
+                    <div class="message">
+                        <div class="row mt-3">
+                            <div class="col col-avatar ml-3">
+                                <img src="./connor.jpg" alt="connor" class="avatar col-avatar">
+                            </div>
+                            <div class="col">
+                                <div class="col">
+                                    <h5>Connor Steele</h5>
+                                </div>
+                                <div class="col">
+                                    <p>Dec 30 2020 at 4:12pm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="ml-3">I'm getting 403 errors on the API. Does anyone know what's going on?</p>
+                    </div>
+
+                    <div class="message">
+                        <div class="row mt-3">
+                            <div class="col col-avatar ml-3">
+                                <img src="./martyn.jpg" alt="connor" class="avatar col-avatar">
+                            </div>
+                            <div class="col">
+                                <div class="col">
+                                    <h5>Connor Steele</h5>
+                                </div>
+                                <div class="col">
+                                    <p>Dec 30 2020 at 4:27pm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="ml-3">Hey Connor, I was rebooting the server. Try it now and lemme know if you run
+                            into any more issues</p>
+                    </div>
+
+                    <div class="message">
+                        <div class="row mt-3">
+                            <div class="col col-avatar ml-3">
+                                <img src="./connor.jpg" alt="connor" class="avatar col-avatar">
+                            </div>
+                            <div class="col">
+                                <div class="col">
+                                    <h5>Connor Steele</h5>
+                                </div>
+                                <div class="col">
+                                    <p>Dec 30 2020 at 4:29pm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="ml-3">It works now! Thanks!</p>
+                    </div>
+                </div>
+
+                <div id="input-container">
+                    <textarea class="form-control" placeholder="Enter your message here"></textarea>
+                </div>
+            </div>
+        </div> <!-- End of Row -->
+        
+    </div>
+
+
+</body>
+
+</html>
